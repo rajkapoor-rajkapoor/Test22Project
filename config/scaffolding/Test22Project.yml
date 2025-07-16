@@ -16,3 +16,11 @@ services:
   packages:
   - name: WmPublic
     version: 11.1.0.0.7
+- serviceName: project.test22.integrations:tesss
+  packages:
+  - name: Test22Project
+    version: "1.0"
+- serviceName: pub.math:addInts
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.7
