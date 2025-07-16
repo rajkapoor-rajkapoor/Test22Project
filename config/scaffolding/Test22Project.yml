@@ -7,3 +7,12 @@ packages:
   gitUrl: https://github.com/rajkapoor-rajkapoor
   gitUsername: rajkapoor-rajkapoor
   gitBranch: main
+services:
+- serviceName: project.test22.integrations:date
+  packages:
+  - name: Test22Project
+    version: "1.0"
+- serviceName: pub.date:getCurrentDate
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.7
