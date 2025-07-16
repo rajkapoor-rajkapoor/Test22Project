@@ -8,4 +8,8 @@
 <INVOKE NAME="Math" SERVICE="pub.math:addInts">
   <COMMENT></COMMENT>
 </INVOKE>
+
+<INVOKE NAME="Date" SERVICE="pub.date:getCurrentDate">
+  <COMMENT></COMMENT>
+</INVOKE>
 </FLOW>
